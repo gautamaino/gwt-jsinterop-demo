@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="JsInterOpHome">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='com.ainosoft.jsInteropDemo.JsInterOpHome' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/JsInterOpHome/greet" class="com.ainosoft.jsInteropDemo.server.GreetingServiceImpl" />
+
+</module>
