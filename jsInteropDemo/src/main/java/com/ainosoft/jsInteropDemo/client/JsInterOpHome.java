@@ -9,9 +9,6 @@ public class JsInterOpHome implements EntryPoint {
 
   public void onModuleLoad() {
 	  
-	  
-	  
-	  
   }
   
 }
