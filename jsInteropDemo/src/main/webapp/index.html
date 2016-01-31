@@ -1,0 +1,31 @@
+<!doctype html>
+    
+    <html>
+    <head>
+         <script type="text/javascript" language="javascript" src="JsInterOpHome/JsInterOpHome.nocache.js"></script>
+          <script >
+              
+              /// <reference path="Main.d.ts" /> 
+        	function testFunction(){
+
+				// var local = new GwtHost.Person().getAddresses() ; 
+				// console.log(local.pop().getStreet());
+                
+                var local = new GwtHost.Person() ;
+               // console.log(local.pop().getStreet());
+
+                var addresses = [
+                        { street: "Shohum St "  },
+                    	{ street: "Menachem Begin " } ];
+
+            	local.setAddresses(addresses) ;
+	
+            }
+        </script>
+    </head>
+    <body>
+        <div id="mainDiv"></div>
+       
+        <div> <input type="button" value = "testFunction" onclick="testFunction()"/></div>
+    </body>
+</html>
